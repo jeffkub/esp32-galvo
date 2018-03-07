@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LME49724
+D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, MSOP-8
+K single differential opamp
+F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+$ENDCMP
+#
+#End Doc Library
