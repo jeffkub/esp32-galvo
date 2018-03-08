@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=galvo_driver-rescue
+LibName1=galvo_controller-rescue
 LibName2=power
 LibName3=device
 LibName4=switches
