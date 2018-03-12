@@ -3597,4 +3597,26 @@ $EndComp
 Wire Wire Line
 	9600 9700 9500 9700
 Connection ~ 9500 9700
+Text Label 10100 6550 0    60   ~ 0
+VOUTR_N
+Text Label 10100 6750 0    60   ~ 0
+VOUTR_P
+Text Label 10100 6950 0    60   ~ 0
+VOUTL_N
+Text Label 10100 7150 0    60   ~ 0
+VOUTL_P
+Text Label 14600 5750 0    60   ~ 0
+X_P
+Text Label 14600 5850 0    60   ~ 0
+X_N
+Text Label 14600 7850 0    60   ~ 0
+Y_P
+Text Label 14600 7950 0    60   ~ 0
+Y_N
+Text Label 2150 9000 0    60   ~ 0
+D_N
+Text Label 2150 8900 0    60   ~ 0
+D_P
+Text Label 2150 8800 0    60   ~ 0
+VBUS
 $EndSCHEMATC
