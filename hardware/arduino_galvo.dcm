@@ -6,4 +6,9 @@ K single differential opamp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
 #
+$CMP SN74LV1T34
+D inverting buffer with Schmitt trigger.
+F 74xx/74ahc_ahct1g14.pdf
+$ENDCMP
+#
 #End Doc Library
