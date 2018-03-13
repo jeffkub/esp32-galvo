@@ -2609,12 +2609,12 @@ $EndComp
 $Comp
 L +3.3V #PWR39
 U 1 1 5AA8914A
-P 8800 8050
-F 0 "#PWR39" H 8800 7900 50  0001 C CNN
-F 1 "+3.3V" H 8800 8190 50  0000 C CNN
-F 2 "" H 8800 8050 50  0001 C CNN
-F 3 "" H 8800 8050 50  0001 C CNN
-	1    8800 8050
+P 8800 8000
+F 0 "#PWR39" H 8800 7850 50  0001 C CNN
+F 1 "+3.3V" H 8800 8140 50  0000 C CNN
+F 2 "" H 8800 8000 50  0001 C CNN
+F 3 "" H 8800 8000 50  0001 C CNN
+	1    8800 8000
 	1    0    0    -1  
 $EndComp
 Text Label 4550 4800 0    60   ~ 0
@@ -2647,14 +2647,14 @@ $EndComp
 $Comp
 L Jumper_NO_Small JP2
 U 1 1 5AA977C1
-P 8800 8200
-F 0 "JP2" H 8800 8280 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 8810 8140 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8800 8200 50  0001 C CNN
-F 3 "" H 8800 8200 50  0001 C CNN
-F 4 "DigiKey" H 8800 8200 60  0001 C CNN "Source"
-F 5 "3M9457-02-ND" H 8800 8200 60  0001 C CNN "Part"
-	1    8800 8200
+P 8200 8200
+F 0 "JP2" H 8200 8280 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8210 8140 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8200 8200 50  0001 C CNN
+F 3 "" H 8200 8200 50  0001 C CNN
+F 4 "DigiKey" H 8200 8200 60  0001 C CNN "Source"
+F 5 "3M9457-02-ND" H 8200 8200 60  0001 C CNN "Part"
+	1    8200 8200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2762,9 +2762,8 @@ Wire Wire Line
 	9400 8700 9400 9600
 Wire Wire Line
 	7600 9600 9800 9600
-Connection ~ 9200 8350
 Wire Wire Line
-	9400 8350 9400 8400
+	9400 8050 9400 8400
 Wire Wire Line
 	1350 1100 1350 1050
 Wire Wire Line
@@ -2780,26 +2779,6 @@ Wire Wire Line
 Connection ~ 9700 9700
 Wire Wire Line
 	9800 9700 9700 9700
-Wire Wire Line
-	8800 8050 8800 8100
-Connection ~ 8400 8350
-Wire Wire Line
-	8400 8400 8400 8350
-Connection ~ 8600 8350
-Wire Wire Line
-	8600 8400 8600 8350
-Connection ~ 8800 8350
-Wire Wire Line
-	8800 8300 8800 8400
-Connection ~ 9000 8350
-Wire Wire Line
-	9000 8400 9000 8350
-Wire Wire Line
-	9200 8350 9200 8400
-Wire Wire Line
-	8200 8350 9400 8350
-Wire Wire Line
-	8200 8400 8200 8350
 Connection ~ 8200 8800
 Wire Wire Line
 	8200 8700 8200 8800
@@ -3664,4 +3643,27 @@ Wire Wire Line
 	1900 5050 1900 5000
 Wire Wire Line
 	1900 4200 1900 4150
+Wire Wire Line
+	8200 8400 8200 8300
+Wire Wire Line
+	8200 8350 9000 8350
+Wire Wire Line
+	9000 8350 9000 8400
+Connection ~ 8200 8350
+Wire Wire Line
+	8200 8100 8200 8050
+Wire Wire Line
+	8200 8050 9400 8050
+Wire Wire Line
+	9200 8400 9200 8050
+Connection ~ 9200 8050
+Wire Wire Line
+	8800 8000 8800 8400
+Connection ~ 8800 8050
+Wire Wire Line
+	8600 8400 8600 8050
+Connection ~ 8600 8050
+Wire Wire Line
+	8400 8400 8400 8050
+Connection ~ 8400 8050
 $EndSCHEMATC

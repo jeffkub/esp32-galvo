@@ -3,7 +3,7 @@
   (general
     (links 290)
     (no_connects 274)
-    (area 134.924999 39.924999 210.075001 130.075001)
+    (area 139.924999 39.924999 210.075001 130.075001)
     (thickness 1.6)
     (drawings 8)
     (tracks 4)
@@ -2925,7 +2925,7 @@
     (fp_line (start 1.25 0.7) (end 1.25 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
-      (net 45 "Net-(JP2-Pad1)"))
+      (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 64 /SD_CD))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -3428,7 +3428,7 @@
     (fp_line (start 1.25 0.7) (end 1.25 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
-      (net 45 "Net-(JP2-Pad1)"))
+      (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 38 /SD_DAT3))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -3464,7 +3464,7 @@
     (fp_line (start 1.25 0.7) (end 1.25 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
-      (net 45 "Net-(JP2-Pad1)"))
+      (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 39 /SD_CMD))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -3500,7 +3500,7 @@
     (fp_line (start 1.25 0.7) (end 1.25 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
-      (net 45 "Net-(JP2-Pad1)"))
+      (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 40 /SD_CLK))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -3572,7 +3572,7 @@
     (fp_line (start 1.25 0.7) (end 1.25 -0.7) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
-      (net 45 "Net-(JP2-Pad1)"))
+      (net 3 +3V3))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 42 /SD_DAT1))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -4944,10 +4944,10 @@
   (gr_line (start 210 125) (end 210 45) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 145 130) (end 205 130) (layer Edge.Cuts) (width 0.15))
 
+  (segment (start 145.02 108.48) (end 145 108.5) (width 0.1524) (layer F.Cu) (net 0))
   (segment (start 151.02 106) (end 151.02 103.02) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 151.02 103.02) (end 151 103) (width 0.1524) (layer F.Cu) (net 3))
   (via (at 151 103) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (segment (start 145.02 108.48) (end 145 108.5) (width 0.1524) (layer F.Cu) (net 3))
 
   (zone (net 1) (net_name GNDA) (layer In1.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.16))
