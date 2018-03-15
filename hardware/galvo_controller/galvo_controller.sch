@@ -1557,7 +1557,7 @@ F 3 "" H 1850 2000 50  0001 C CNN
 $EndComp
 Text Label 1000 1750 0    60   ~ 0
 LASER
-Text Label 6950 7100 0    60   ~ 0
+Text Label 6150 6200 0    60   ~ 0
 LASER
 $Comp
 L D_Schottky_x2_Serial_AKC D4
@@ -1993,8 +1993,7 @@ F 5 "NCP1117LPST50T3GOSCT-ND" H 10150 3000 60  0001 C CNN "Part"
 	1    10150 3000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6000 4800
-Text Label 7500 6700 0    60   ~ 0
+Text Label 6150 6100 0    60   ~ 0
 LED
 Text Label 1000 2250 1    60   ~ 0
 LED
@@ -2458,15 +2457,15 @@ F 3 "" H 9500 8700 50  0001 C CNN
 	1    9500 8700
 	1    0    0    -1  
 $EndComp
-Text Label 6950 6300 0    60   ~ 0
+Text Label 6150 5400 0    60   ~ 0
 I2S_MCLK
-Text Label 6850 6450 0    60   ~ 0
+Text Label 6150 4800 0    60   ~ 0
 I2S_BCLK
-Text Label 6900 6550 0    60   ~ 0
+Text Label 6150 5500 0    60   ~ 0
 I2S_LRCLK
-Text Label 6950 6700 0    60   ~ 0
+Text Label 6150 5600 0    60   ~ 0
 I2S_RX
-Text Label 6950 6850 0    60   ~ 0
+Text Label 6150 5300 0    60   ~ 0
 I2S_TX
 $Comp
 L GNDD #PWR092
@@ -4054,23 +4053,23 @@ Text Label 900  6950 0    60   ~ 0
 LEFT
 Text Label 900  7150 0    60   ~ 0
 SEL
-Text Label 6100 7100 0    60   ~ 0
+Text Label 6150 6500 0    60   ~ 0
 UP
-Text Label 6150 7300 0    60   ~ 0
+Text Label 6150 6600 0    60   ~ 0
 RIGHT
-Text Label 6200 7400 0    60   ~ 0
+Text Label 6150 6000 0    60   ~ 0
 LEFT
-Text Label 6400 7600 0    60   ~ 0
+Text Label 6150 6400 0    60   ~ 0
 DOWN
-Text Label 6500 7850 0    60   ~ 0
+Text Label 6150 6300 0    60   ~ 0
 SEL
-Text Label 7000 7350 0    60   ~ 0
+Text Label 6150 5900 0    60   ~ 0
 OLED_RST
 $Comp
-L GNDD #PWR?
+L GNDD #PWR0106
 U 1 1 5AA9C995
 P 11400 9750
-F 0 "#PWR?" H 11400 9500 50  0001 C CNN
+F 0 "#PWR0106" H 11400 9500 50  0001 C CNN
 F 1 "GNDD" H 11400 9625 50  0000 C CNN
 F 2 "" H 11400 9750 50  0001 C CNN
 F 3 "" H 11400 9750 50  0001 C CNN
@@ -4081,4 +4080,30 @@ Wire Wire Line
 	11300 9700 11400 9700
 Wire Wire Line
 	11400 9700 11400 9750
+Wire Wire Line
+	6800 5300 6000 5300
+Wire Wire Line
+	6800 5400 6000 5400
+Wire Wire Line
+	6800 5500 6000 5500
+Wire Wire Line
+	6800 5600 6000 5600
+Wire Wire Line
+	6800 4800 6000 4800
+Wire Wire Line
+	6000 6000 6800 6000
+Wire Wire Line
+	6000 6300 6800 6300
+Wire Wire Line
+	6800 6400 6000 6400
+Wire Wire Line
+	6800 6500 6000 6500
+Wire Wire Line
+	6800 6600 6000 6600
+Wire Wire Line
+	6800 5900 6000 5900
+Wire Wire Line
+	6800 6100 6000 6100
+Wire Wire Line
+	6800 6200 6000 6200
 $EndSCHEMATC
