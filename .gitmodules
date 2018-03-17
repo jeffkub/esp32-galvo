@@ -1,0 +1,3 @@
+[submodule "hardware/kicad-libs"]
+	path = hardware/kicad-libs
+	url = https://github.com/jeffkub/kicad-libs.git
