@@ -1,4 +1,4 @@
-update=3/9/2018 11:16:41 PM
+update=Sat 17 Mar 2018 11:52:03 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,4 +62,4 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=../arduino_galvo
+LibName34=../kicad-libs/libraries/shared

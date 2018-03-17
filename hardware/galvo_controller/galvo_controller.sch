@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:galvo_controller-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,7 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:arduino_galvo
+LIBS:shared
 LIBS:galvo_controller-cache
 EELAYER 25 0
 EELAYER END
