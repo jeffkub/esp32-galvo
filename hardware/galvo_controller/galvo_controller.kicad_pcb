@@ -2,8 +2,8 @@
 
   (general
     (links 335)
-    (no_connects 14)
-    (area 134.924999 39.924999 210.075001 135.075001)
+    (no_connects 8)
+    (area 127.704743 38.1726 217.295258 140.677401)
     (thickness 1.6)
     (drawings 29)
     (tracks 1038)
@@ -30,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.1524)
     (user_trace_width 0.16)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -6441,9 +6441,9 @@
   (segment (start 148.3 118.8) (end 148.3 118.7) (width 0.1524) (layer F.Cu) (net 1))
   (via (at 148.3 118.7) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 148.3 119.75) (end 148.3 118.8) (width 0.1524) (layer F.Cu) (net 1))
-  (segment (start 163.7 127.4) (end 163.8 127.4) (width 0.1524) (layer F.Cu) (net 1))
+  (segment (start 163.7 127.4) (end 163.8 127.4) (width 0.3) (layer F.Cu) (net 1))
+  (segment (start 162.6 127.4) (end 163.7 127.4) (width 0.3) (layer F.Cu) (net 1))
   (via (at 163.8 127.4) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 1))
-  (segment (start 162.6 127.4) (end 163.7 127.4) (width 0.1524) (layer F.Cu) (net 1))
   (segment (start 172.68 133.680004) (end 172.699996 133.7) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 172.68 132.38) (end 172.68 133.680004) (width 0.3) (layer F.Cu) (net 1))
   (via (at 172.699996 133.7) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 1))
@@ -6682,7 +6682,7 @@
   (segment (start 160.3 127.1) (end 160.6 127.4) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 146.3 121.25) (end 146.3 122.1) (width 0.1524) (layer F.Cu) (net 3))
   (via (at 146.3 122.1) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 3))
-  (segment (start 160.6 127.4) (end 160.6 128.7) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 160.6 127.4) (end 160.6 128.7) (width 0.3) (layer F.Cu) (net 3))
   (via (at 160.6 128.7) (size 0.452) (drill 0.3) (layers F.Cu B.Cu) (net 3))
   (segment (start 158.95 124.85) (end 159.85 124.85) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 160.6 126.6226) (end 160.6 127.4) (width 0.1524) (layer F.Cu) (net 3))
