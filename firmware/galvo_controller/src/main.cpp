@@ -1,11 +1,23 @@
 #include <Arduino.h>
 
+#include "globals.h"
+
 void setup()
 {
-    // put your setup code here, to run once:
+    Serial.begin(115200);
+    Serial.printf("Program start\n");
+
+    pinMode(LED_PIN, OUTPUT);
+
+    return;
 }
 
 void loop()
 {
-    // put your main code here, to run repeatedly:
+    digitalWrite(LED_PIN, HIGH);
+    delay(500);
+    digitalWrite(LED_PIN, LOW);
+    delay(500);
+
+    return;
 }
